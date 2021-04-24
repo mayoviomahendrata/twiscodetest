@@ -1,0 +1,25 @@
+POST http://localhost:3000/api-test/bin-to-dec HTTP/1.1
+content-type: application/json
+
+{
+    "binary": "1010111"
+}
+
+
+###
+
+POST http://localhost:3000/api-test/dec-to-bin HTTP/1.1
+content-type: application/json
+
+{
+    "decimal": "87"
+}
+
+###
+
+POST http://localhost:3000/api-test/palindrome HTTP/1.1
+content-type: application/json
+
+{
+    "palindrome": "di rumah saya ada kasur rusak"
+}
